@@ -1,0 +1,63 @@
+<div class="header-bar">
+  <div class="first-bar">
+    <img  class="patinhas" src="../../../assets/img/PATA CABECALHO.png" alt="">
+    <div class="pull-right form-inline" id="social">
+      <a target="_blank" href="http://www.instagram.com/abrigosaltimbancos2017">
+        <img src="../../../assets/img/Group 27.png" alt="">
+      </a>
+      <a href="mailto:renata.mendes.souza@outlook.com.br">
+        <img src="../../../assets/img/Group 51.png" alt="" data-toggle="tooltip" data-placement="top" title="renata.mendes.souza@outlook.com.br">
+      </a>
+      <a target="_blank" href="https://www.facebook.com/abrigosaltimbancos/">
+        <img src="../../../assets/img/Group 56.png">
+      </a>
+      <!-- <a target="_blank" href="https://api.whatsapp.com/send?phone=5548996266107">
+        <img src="../../../assets/img/Group 97.png">
+      </a> -->
+    </div>
+  </div>
+  <nav id="main-nav" class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand item" [routerLink]="['']">
+      <img id="logo" src="../../../assets/img/logo.png" alt="Abrigo Saltimbancos">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto container-1">
+          <li class="nav-item active col-md-2">
+              <a class="nav-link item">
+                <span [routerLink]="['/']">HOME</span>
+              </a>
+            </li>
+        <li class="nav-item active col-md-3">
+          <a class="nav-link item">
+            <span [routerLink]="['/sobre-nos']">SOBRE NÓS</span>
+          </a>
+        </li>
+        <li class="nav-item active col-md-2">
+          <a class="nav-link item">
+            <span [routerLink]="['/faq']">FAQ</span>
+          </a>
+        </li>
+        <li class="nav-item active col-md-2">
+          <a class="nav-link item">
+            <span [routerLink]="['/como-ajudar']">COMO AJUDAR?</span>
+          </a>
+        </li>
+        <li class="nav-item dropdown std-btn col-md-3">
+          <button class="nav-link dropdown-toggle item" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            ENCONTRE SEU COMPANHEIRO
+          </button>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" [routerLink]="['/doguinhos']">Doguinhos
+              <3</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>

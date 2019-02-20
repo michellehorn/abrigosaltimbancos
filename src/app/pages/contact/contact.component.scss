@@ -1,0 +1,32 @@
+:host {
+    .container {
+        text-align: center;
+        font-family: 'Tahoma', Geneva, Verdana, 'sans-serif';
+    }
+    .title {
+        font-size: 20px;
+        color: gray;
+        text-align: center;
+        padding: 10px;
+    }
+    .card {
+        margin: 15px;
+        top: 0;
+        background-color: rgba(18, 161, 154, 0.425);
+        color: black;
+    }
+    .text {
+        font-size: 15px;
+    }
+    .col-md-12 {
+        display: inline-flex;
+    }
+    @media screen and (max-width: 500px) {
+        .col-md-12 {
+            display: block;
+        }
+        .card {
+            margin: 15px 0px;
+        }
+    }
+}

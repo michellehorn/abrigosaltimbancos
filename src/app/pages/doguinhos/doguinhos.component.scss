@@ -1,0 +1,50 @@
+:host {
+    .all {
+        text-align: center;
+        position: relative;
+    }
+    .card-doguinho {
+        padding: 10px 15px;
+        text-align: justify;
+        .color-text {
+            color: transparent;
+        }
+        h6 {
+        text-align: right;
+        font-size: 12px;
+        }
+
+        span:hover {
+            img {
+                opacity: 0.3;
+            }
+        }
+        img {
+            width: 260px;
+            border-radius: 0.25em;
+            box-shadow: 1px 1px 10px #2A9D8F;
+        }
+    }
+    .card-doguinho:hover {
+        cursor: pointer;
+        img {
+            opacity: 0.3;
+        }
+        .color-text {
+            color: rgb(73, 72, 72);
+        }
+    }
+
+    .color-text:hover {
+        img {
+            opacity: 0.3;
+        }
+    }
+    .info {
+        display: inline-block;
+    }
+
+    .carousel-caption {
+        padding: 0!important;
+    }
+}

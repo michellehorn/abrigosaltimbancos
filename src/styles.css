@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url('./assets/plugins/fontawesome-free-5.4.1-web/css/all.min.css');
+@import url('./assets/plugins/bootstrap/dist/css/bootstrap.min.css');
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.pull-right {
+    float: right;
+}
+
+.pull-left {
+    float: left;
+}
+
+.page-title {
+    text-align: center;
+    color: #BA593E;
+    font-size: 22px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif
+}
+

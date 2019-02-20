@@ -1,0 +1,33 @@
+:host {
+  .footer {
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    height: 40px;
+    width: 100%;
+    background-color: #12a19a;
+    z-index: 10;
+    text-align: center;
+  }
+  .container {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 0px;
+  }
+
+  .p-footer {
+    color: #fff;
+  }
+
+  .logo-footer {
+    height: 2.5rem;
+  }
+
+  .pata-footer {
+    height: 1rem;
+  }
+
+  @media only screen and (max-width: 500px) {
+  
+  }
+}

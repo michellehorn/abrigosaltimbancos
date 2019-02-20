@@ -1,0 +1,66 @@
+#accordion {
+    margin: 20px 0 0 35px;
+    max-width: 62vw;
+}
+
+h2 {
+    line-height: 50px;
+}
+
+.panel-title {
+    padding-left: 7px;
+    line-height: 1.5em;
+}
+
+.panel-title:hover {
+    background-color: rgb(240, 238, 238);
+    border-radius: 4px;
+}
+
+.panel-body, li, .lei {
+    margin-left: 30px;
+}
+
+ul, ol {
+    margin-left: -38px;
+}
+
+@media (max-width: 1000px) {
+    #accordion {
+        font-size: 1em;
+    }
+    h2 {
+        font-size: 1.6em;
+    }
+    .panel-title {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 750px) {
+    #accordion {
+        font-size: .9em;
+    }
+    h2 {
+        font-size: 1.4em;
+    }
+    .panel-title {
+        font-size: 1.35em;
+    }
+}
+
+@media (max-width: 500px) {
+    #accordion {
+        font-size: .8em;
+    }
+    h2 {
+        font-size: 1.38em;
+    }
+    .panel-title {
+        font-size: 1.25em;
+    }
+    .bg {
+        background-color: rgb(240, 238, 238);
+        border-radius: 4px;
+    }
+}
